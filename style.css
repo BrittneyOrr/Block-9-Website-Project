@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: black;
+    background-color: aqua;
+}
+
+/*Style the header with links */
+header {
+    margin: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aqua;
+    color: white;
+    font-size: 24px;
+    text-align: right;
+  }
+
+  body {
+    font-family: Arial;
+    margin: 0;
+    background-color:white;
+  }
+
+nav {
+    position: sticky
+}
+
+img {
+   max-width: 25%;
+   max-height: 25%;
+}
