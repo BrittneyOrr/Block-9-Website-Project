@@ -14,7 +14,7 @@ header {
     padding-bottom: 14px;
   }
 
-  main {
+main {
     min-height: 100vh;
     padding: 85px 24px 96px;
     box-shadow: 0 0 12px -2px black;
@@ -56,6 +56,11 @@ img {
    padding-left: 14px;
 }
 
+.img-1 {
+    width: fit-content;
+    height: fit-content;
+}
+
 h2 {
     text-align: center;
     color: black;
@@ -95,20 +100,7 @@ body {
 }
 
 form {
-    margin: 15px;
     font-size: 1em;
-}
-
-.flex-container {
-    display: flex;
-    background-color: white;
-}
-
-.flex-container > div {
-    background-color: black;
-    margin: 10px;
-    padding: 5px;
-    font-size: 25px;
 }
 
 .grid-table {
@@ -128,5 +120,9 @@ form {
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
+}
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
